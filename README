@@ -1,0 +1,15 @@
+￼# NKLinearProgressView
+
+#ProgressView that shows the progress percentile.
+
+#How to use
+#Take a UIView and set the class as NKLinearProgressView
+#You can modify the appearance by setting the properties through the storyboard or by making an outlet for the view.
+@IBOutlet weak var progressView : NKLinearProgressView!
+progressView.barColor = UIColor.green
+progressView.trackColor = UIColor.yellow
+progressView.barThickness = 10
+progressView.barPadding = 0
+progressView.trackPadding = 6
+progressView.progressValue = 50
+#Using Storyboard #Just set the values from property inspector ￼
